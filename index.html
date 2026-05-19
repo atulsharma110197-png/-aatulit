@@ -303,6 +303,11 @@ footer{background:var(--navy);border-top:1px solid var(--border);padding:54px 6%
 @media(max-width:1024px){.tech-grid{grid-template-columns:1fr 1fr;}.svc-intro{grid-template-columns:1fr;}}
 @media(max-width:900px){#about,#contact{grid-template-columns:1fr;gap:38px;}.bp-grid,.svc-grid{grid-template-columns:1fr;}.stats-bar{grid-template-columns:1fr 1fr;}.stat-item:nth-child(2){border-right:none;}.stat-item:nth-child(3){border-top:1px solid var(--border);}.why-grid{grid-template-columns:1fr;}.why-cell:nth-child(2n){border-right:1px solid var(--border);}.why-cell:nth-last-child(-n+2){border-bottom:1px solid var(--border);}.why-cell:last-child{border-bottom:none;}.foot-top{grid-template-columns:1fr 1fr;gap:26px;}.gflow{flex-wrap:wrap;gap:14px;}}
 @media(max-width:640px){.nav-links{display:none;flex-direction:column;position:fixed;top:0;right:0;bottom:0;width:260px;background:var(--navy2);padding:70px 26px 26px;gap:16px;z-index:999;transform:translateX(100%);transition:.4s;border-left:1px solid var(--border);}.nav-links.open{display:flex;transform:translateX(0);}.hamburger{display:flex;z-index:1001;}.tech-grid{grid-template-columns:1fr;}.frow{grid-template-columns:1fr;}.stats-bar{grid-template-columns:1fr;}.stat-item{border-right:none;border-bottom:1px solid var(--border);padding:20px;}.stat-item:last-child{border-bottom:none;}.cform{padding:22px 16px;}.foot-top{grid-template-columns:1fr;}.gflow{flex-direction:column;align-items:center;}.gf-arrow{transform:rotate(90deg);}.hb{display:none;}.diag-steps{flex-direction:column;align-items:center;}.diag-step{width:100%;border-right:1px solid var(--border)!important;}}
+.aatulya-course-section { padding: 60px 20px; background-color: #0B0F19; color: #F3F4F6; text-align: center; }
+.course-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; max-width: 1000px; margin: 40px auto; }
+.course-card { background: #131A2C; border: 1px solid #222F4B; border-radius: 16px; padding: 30px; }
+.price-tag { font-size: 2.5rem; font-weight: 800; color: #E5B243; margin: 20px 0; }
+.rzp-btn { display: inline-block; background: #E5B243; color: #000; padding: 15px 30px; border-radius: 8px; font-weight: 700; text-decoration: none; }
 </style>
 <!-- Meta Pixel Code -->
 <script>
@@ -527,7 +532,23 @@ src="https://www.facebook.com/tr?id=27965892883001429&ev=PageView&noscript=1"
     <div class="tc reveal" style="transition-delay:.3s;"><div class="tc-title">💬 Communication</div><ul class="tc-list"><li>WhatsApp Business — Support</li><li>Google Meet — Live sessions</li><li>Miro — Collaborative boards</li><li>Canva — Progress trackers</li><li>YODDHAA PRO — AI refinement</li><li>NotebookLM — Content synthesis</li></ul></div>
   </div>
 </section>
-
+<body>
+    <section class="aatulya-course-section">
+        <h1>Aatulya EduPreneur Mastery</h1>
+        <div class="course-grid">
+            <div class="course-card">
+                <h3>Individual Mastery</h3>
+                <div class="price-tag">₹7,500</div>
+                <a href="https://rzp.io/rzp/aatulya" class="rzp-btn">Enroll Now</a>
+            </div>
+            <div class="course-card">
+                <h3>Group Learning</h3>
+                <div class="price-tag">₹5,000</div>
+                <a href="https://rzp.io/rzp/aatulya" class="rzp-btn">Join Cohort</a>
+            </div>
+        </div>
+    </section>
+</body>
 <!-- DIAGNOSTIC -->
 <section id="diagnostic">
   <div class="diag-inner">
@@ -697,5 +718,6 @@ if (form) {
   });
 }
 </script>
+
 </body>
 </html>
